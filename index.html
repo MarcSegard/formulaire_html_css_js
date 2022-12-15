@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="title">*: Required fields</div>
+    <form action="#" name="formulaire" method="get">
+      <label for="firstName"
+        >Prénom*
+        <input
+          class="champ"
+          id="firstName"
+          type="text"
+          placeholder="entre 5 et 15 caractères"
+      /></label>
+      <div class="error" id="firstNameError"></div>
+      <label for="lastName"
+        >Nom*
+        <input
+          class="champ"
+          id="lastName"
+          type="text"
+          placeholder="entre 5 et 15 caractères"
+      /></label>
+      <div class="error" id="lastNameError"></div>
+      <label for="Pseudo"
+        >Pseudo*
+        <input
+          class="champ"
+          id="Pseudo"
+          type="text"
+          placeholder="entre 5 et 15 caractères"
+      /></label>
+      <div class="error" id="PseudoError"></div>
+      <label for="email"
+        >Email*
+        <input
+          class="champ"
+          id="email"
+          type="text"
+          placeholder="monAdresse@monDomain.fr"
+      /></label>
+      <div class="error" id="emailError"></div>
+      <label for="motDePasse"
+        >Mot de passe*
+        <input
+          class="champ"
+          id="motDePasse"
+          type="text"
+          placeholder="Gf8#dfdsfd"
+      /></label>
+      <div class="error" id="motDePasseError"></div>
+      <label for="tel"
+        >Tel:*
+        <input class="champ" id="tel" type="text" placeholder="1234567890"
+      /></label>
+      <div class="error" id="telError"></div>
+      <label for="message"
+        >Message
+        <textarea id="message" rows="15" cols="30"></textarea>
+        <div>10 caractères maximum</div>
+      </label>
+      <div id="connect">
+        <input id="connexion" type="submit" value="connexion" />
+      </div>
+    </form>
+  </body>
+  <script src="./script.js"></script>
+</html>

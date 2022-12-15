@@ -1,0 +1,48 @@
+form, div {
+    display: block;
+    width: 400px;
+    margin: auto;
+    font-size: 20px;
+}
+
+#title {
+    padding-bottom: 50px;
+}
+
+label {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+input, textarea {
+    border-radius: 5px;
+}
+
+input {
+    width: 200px;
+}
+
+.badInput {
+border: solid 2px red;
+}
+
+.error {
+    visibility: visible;
+    font-size:15px;
+    color: red;
+    font-style: italic;
+    margin-bottom: 10px;;
+}
+
+#connexion {
+    background-color: rgb(173,216,230);
+    padding: 10px;
+    margin-top: 20px;
+}
+
+#connect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
