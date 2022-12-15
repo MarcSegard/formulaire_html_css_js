@@ -56,13 +56,13 @@ button.addEventListener("click", (event) => {
   }
 });
 
-// Object.values(champs).forEach((element) => {
-//   element.addEventListener("click", () => {
-//     element.classList.remove("badInput");
-//     const errorId = "#" + element.getAttribute("id") + "Error";
-//     document.querySelector(errorId).innerHTML = "";
-//   });
-// });
+Object.values(champs).forEach((element) => {
+  element.addEventListener("click", () => {
+    element.classList.remove("badInput");
+    const errorId = "#" + element.getAttribute("id") + "Error";
+    document.querySelector(errorId).innerHTML = "";
+  });
+});
 
 formulaire.addEventListener("submit", function () {
   console.log("Formulaire envoyé !");
